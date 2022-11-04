@@ -1,0 +1,423 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body
+{
+    font-family: UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+a
+{
+    text-decoration: none;
+}
+a:hover
+{
+    cursor: pointer;
+    color: hotpink;
+}
+.header
+{
+    width: 100%;
+    height: 64px;
+    background-color:#000000;
+    display: flex;
+    align-items: center;
+}
+.head-left
+{display: flex;
+    width: 50%;
+   
+    align-items: center;
+}
+.head-right
+{display: flex;
+    width: 50%;
+    height: 64px;
+    
+    flex-direction: row-reverse;
+}
+.signup
+{
+    margin-right: 110px;
+    height: 41px;
+    margin-top: 11px;
+    width: 72px;
+    border-radius: 25px;
+    font-weight: 550;
+}
+.login
+{
+   font-size: 17px;
+    color: white;
+    text-decoration: none;
+    margin-right: 25px;
+    margin-top: 25px;
+}
+
+
+
+.header-font
+{  
+    color: white;
+    text-decoration: none;    
+}
+.uber
+{
+    margin-left: 115px;
+    font-size: 25px;   
+}
+.company
+{
+    padding-left: 40px;   
+}
+.company select{
+    font-weight: 500;
+    background-color: black;
+    color: white;
+    border: none;
+    font-size: 14px;
+    width: 90px;
+}
+.page1
+{
+    width: 100%;
+    height: 600px;  
+   
+}
+.left-page1
+{
+    height: 510px;
+    width: 30%;
+    padding-left: 240px;
+    padding-top: 140px;
+    float: left;
+    
+   
+}
+
+#p1
+{
+    font-size: 52px;
+   
+    font-weight: 700;
+   color: #333333; 
+}
+.right-page1
+{
+width: 46%;
+height:710px;
+padding-left: 90px;
+float: left;
+}
+.pic
+{
+    height: 550px;
+    width: 500px;
+}
+#p2
+{
+ margin-top: 30px;
+ color: #333333; 
+ font-size: 17px;
+ font-weight: 400;
+}
+#button
+{
+    margin-top: 30px;
+    width: 170px;
+    height: 45px;
+    border-radius: 5px;
+    background-color: #000000;
+    color: white;
+    font-size: 17px;
+}
+#button:hover
+{
+    cursor: pointer;
+    background-color: #978f8f;
+}
+.safety
+{
+   font-size: 17px;
+    color: white;
+    text-decoration: none;
+    margin-left: 25px;
+}
+.page2
+{
+    width: 100%;
+    height: 700px;
+   
+    
+}
+.text
+{
+   margin-left: 180px;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 44px;
+    color: #333333; 
+    /* background-color: ;    */
+}
+.page2-img
+{
+    margin-top: 52px;
+    margin-left: 2px;
+    
+    width: 32em;
+    height: 310px;
+}
+.page2-parahead
+{
+    width: 100%;
+    margin-top: 30px;
+    height: 40px;
+    
+    
+}
+.hd{
+    margin-right: 189px;
+    float: left;  
+}
+.page2-para
+{
+    width: 100%;
+    
+    
+   
+  
+}
+.para{
+margin-right: 5em;
+float: left;
+font-size: 16px;
+margin-top: 15px;
+font-weight: normal;
+
+}
+.page2-link
+{
+   
+ 
+   /* margin-top: 120px; */
+   padding-left: 180px;
+   text-decoration: none;
+   color: #333333;
+   /* background-color: aqua; */
+}
+.page3
+{
+    margin-top: 100px;
+    padding:2em 10em;
+}
+.page3-para
+{
+ display: flex;
+ justify-content: space-between;
+ margin-top: 30px;
+}
+.safetysubdiv
+{
+    width: 32%;
+    padding-right: 24px;
+    
+}
+.page3-img
+{
+    width: 50px;
+    margin-bottom: 13px;
+}
+.page4
+{
+   
+    margin-top: 100px;
+    padding:2em 13em;
+}
+.page4head
+{
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 44px;
+    color: #333333; 
+}
+.travel
+{
+    display: flex;
+}
+.travelsub
+{
+    width: 40%;
+    padding-right: 140px;
+}
+.travelsubpara
+{
+   margin-top: 10px; 
+   margin-bottom: 10px;
+}
+.page4-img
+{
+    width: 525px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+.page5
+{
+    margin-top: 50px;
+    padding:2em 6em;
+    
+    
+}
+.page5-bg
+{
+    display: flex;
+    background-color: #f6f6f6;;
+    padding: 73px 116px;
+}
+.page5-img
+{
+    width: 390px;
+
+}
+.page5-right
+{
+    padding-left: 223px;
+    padding-top: 80px;
+    margin-left: 30px;
+}
+.page5para
+{
+    margin: 30px 0px;
+}
+.page5-btn
+{
+    width: 180px;
+    height: 46px;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    font-size: 17px;
+}
+.page5-btn:hover
+{
+    cursor: pointer;
+    background-color: #978f8f;
+}
+.page6
+{
+    margin-top: 100px;
+    padding:2em 10em;
+}
+.line
+{
+    margin-top: 16px;
+    border: #b5afaf solid 1px;
+}
+.plus
+{
+    float: right;
+    margin-right: 20px;
+}
+.page6head
+{
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 44px;
+    color: #333333; 
+    margin-bottom: 44px;
+}
+.page6para
+{
+    margin-top: 10px;
+    font-weight: 500;
+    padding-left: 20px;
+}
+.page7
+{
+    margin-top: 100px;
+    padding:2em 10em;
+   
+}
+.logo
+{
+    margin-top: 30px;
+    border: #c3bcbc solid 1px;
+    display: flex;
+    align-items: center;
+    width: 600px;
+}
+.download
+{
+    margin-left: 25px;
+    
+    font-weight: 500;
+    font-size: 25px;
+}
+.arrow
+{
+    width: 20px;
+    
+    margin-left: 120px;
+}
+.logoimage
+{
+    margin: 12px 12px;
+   
+}
+footer
+{
+    color: white;
+    background-color: #000000;
+    margin-top: 100px;
+    padding:2em 10em;
+}
+footer div
+{
+    margin: 40px 0px;
+}
+table td 
+{
+    padding-right: 150px;
+    padding-bottom: 20px;
+}
+table th
+{
+    padding-bottom: 20px;
+    padding-right: 210px;
+}
+.connect
+{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.connectlogo img
+{
+    width: 25px;
+    margin-right: 50px;
+}
+.connectlogo img:hover
+{
+    cursor: pointer;
+    background-color: #978f8f;
+}
+.store
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.store img{
+    width: 40px;
+}
+.android
+{
+    border: 1px solid grey;
+    margin-right: 22px;
+    padding: 3px 1px;
+}
+.android :hover
+{
+    cursor: pointer;
+    background-color: #978f8f;
+}
